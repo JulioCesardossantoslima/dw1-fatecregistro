@@ -1,11 +1,63 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Outras mídias no HTML5</title>
+  </head>
+  <body>
+    <header>
+      <h1>Outras mídias no HTML5</h1>
+    </header>
+    <main>
+      <section>
+        <h2>Aúdio</h2>
+        <audio controls src="midias/audio.mpeg"></audio>
+
+        <h2>Vídeo</h2>
+        <video
+          controls
+          src="/Aula04_midias_e_formatacoes/midias"
+          type="video/mp4"
+          width="400px"
+          height="300px"
+        >
+          Vídeo não encontrado ou não suportado
+        </video>
+
+        <h2>Vídeo do Youtube ( externo ) - iFrame</h2>
+        <iframe
+          src="https://www.youtube.com/embed/3g6WChxY14I"
+          title="Exemplo de vídeo do Youtube"
+          width="560px"
+          height="315px"
+          frameborder="0"
+        >
+        </iframe>
+        <h2>Vídeo do Youtube 2 ( externo ) - iFrame</h2>
+        <iframe
+          width="560"
+          height="315"
+          src="https://www.youtube.com/embed/UdXjHHR_hZM?si=c20n98lkbrHW1bNH"
+          title="YouTube video player"
+          frameborder="0"
+          allow="
+            accelerometer;
+            autoplay;
+            clipboard-write;
+            encrypted-media;
+            gyroscope;
+            picture-in-picture;
+            web-share;
+          "
+          referrerpolicy="strict-origin-when-cross-origin"
+          allowfullscreen
+        ></iframe>
+
+        <!-- Incorporando Mapas -->
+        <h2>Mapas (iframe)</h2>
+        
+    </section>
+    </main>
+  </body>
 </html>
