@@ -28,7 +28,6 @@
           <td>Dado 8</td>
         </tr>
       </table>
-
       <h3>Tabela com cabeçalho:</h3>
       <table border="2">
         <tr>
@@ -121,6 +120,45 @@
             <td colspan="2">R$ 700,00</td>
           </tr>
         </tfoot>
+      </table>
+      <h3>Tabela com atributo SCOPE:</h3>
+      <table border="2">
+        <caption>
+          Notas dos alunos por disciplina
+        </caption>
+        <thead>
+          <tr>
+            <!-- Scope define o rotulo que se deve colocar no TH -->
+            <th scope="col">Alunos</th>
+            <th scope="col">Desenvolvimento Web</th>
+            <th scope="col">Design Digital</th>
+            <th scope="col">Bando de dados</th>
+            <th scope="col">Algoritmos</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row">Ana</th>
+            <td>8.5</td>
+            <td>9.0</td>
+            <td>7.0</td>
+            <td>8.0</td>
+          </tr>
+          <tr>
+            <th scope="row">Bruno</th>
+            <td>7.5</td>
+            <td>9.0</td>
+            <td>10.0</td>
+            <td>9.0</td>
+          </tr>
+          <tr>
+            <th scope="row">Carlos</th>
+            <td>9.5</td>
+            <td>10.0</td>
+            <td>9.0</td>
+            <td>8.5</td>
+          </tr>
+        </tbody>
       </table>
     </main>
   </body>
