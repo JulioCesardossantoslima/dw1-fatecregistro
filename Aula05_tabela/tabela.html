@@ -1,47 +1,73 @@
 <!doctype html>
-<html lang="en">
+<html lang="pt-br">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Pratica de tabela</title>
   </head>
   <body>
+    <h1>Horário de Aulas</h1>
+    <p>uma tabela feita para mostrar os horarios de cada aula do DSM1</p>
     <table border="1">
       <caption>
-        Tabela de Dados
+        Horário semanal das disciplinas da turma do DSM-1
       </caption>
-      <tr>
-        <th>Dados 1</th>
-        <th>Dados 2</th>
-      </tr>
-      <tr>
-        <td>Dado 1</td>
-        <td>Dado 2</td>
-      </tr>
-    </table>
-    <table border="1">
-      <caption>
-        Tabela mesclada
-      </caption>
-      <tr>
-        <th>Dados 1</th>
-        <th>Dados 2</th>
-        <th>Dados 3</th>
-      </tr>
-      <tr>
-        <td rowspan="2">dado 2-2</td>
-        <td>dado 1-2</td>
-        <td>dado 1-3</td>
-      </tr>
-      <tr>
-        <td>dado 2-1</td>
-        <td>dado 2-2</td>
-      </tr>
-      <tr>
-        <td colspan="2">dado 3-1</td>
-        <td>dado 3-3</td>
-      </tr>
+      <thead style="background-color: lightskyblue">
+        <tr>
+          <th scope="col">Horário</th>
+          <th scope="col">Segunda</th>
+          <th scope="col">Terça</th>
+          <th scope="col">Quarta</th>
+          <th scope="col">Quinta</th>
+          <th scope="col">Sexta</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th scope="row">18h30 às 19h20</th>
+          <td>Devenvolvimento de Web I</td>
+          <td>Sistemas Operacionais e Redes de Computadores</td>
+          <td>Modelagem de Banco de Dados</td>
+          <td>Modelagem de Banco de Dados</td>
+          <td>Algoritmo e Lógica de Progamação</td>
+        </tr>
+        <tr>
+          <th scope="row">19h20 às 20h10</th>
+          <td>Engenharia de Software I</td>
+          <td>Desenvolvimento de Web I</td>
+          <td>Modelagem de Banco de Dados</td>
+          <td>Design Digital</td>
+          <td>Algoritmo e Lógica de Progamação</td>
+        </tr>
+        <tr>
+          <th scope="row">20h10 às 21h00</th>
+          <td>Engenharia de Software I</td>
+          <td>Desenvolvimento de Web I</td>
+          <td>Modelagem de Banco de Dados</td>
+          <td>Design Digital</td>
+          <td>Hora Técnica</td>
+        </tr>
+        <tr>
+          <th scope="row">21h00 às 21h20</th>
+          <td colspan="5" style="background-color: #FF3333;">INTERVALO</td>
+        </tr>
+        <tr>
+          <th scope="row">21h20 às 22h10</th>
+          <td>Engenharia de Software I</td>
+          <td>Desenvolvimento de Web I</td>
+          <td>Sistemas Operacionais e Redes de Computadores</td>
+          <td>Design Digital</td>
+          <td>Algoritmo e Lógica de Progamação</td>
+        </tr>
+        <tr>
+          <th scope="row">22h10 às 23h00</th>
+          <td>Engenharia de Software I</td>
+          <td>Desenvolvimento de Web I</td>
+          <td>Sistemas Operacionais e Redes de Computadores</td>
+          <td>Design Digital</td>
+          <td>Algoritmo e Lógica de Progamação</td>
+        </tr>
+      </tbody>
     </table>
   </body>
 </html>
-t
