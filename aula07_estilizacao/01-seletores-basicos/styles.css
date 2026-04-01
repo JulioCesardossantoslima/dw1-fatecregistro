@@ -1,0 +1,54 @@
+/* Seletor de Elementos */
+/* p = seletor */
+/* font-size = Propriedade de tamanho de fonte */
+p {
+  font-size: 24px;
+  line-height: 20px;
+  margin-bottom: 15px;
+  color: #8cc9e4;
+  padding: 10px;
+}
+
+body {
+  background-color: #30302e; /* cor do fundo */
+  color: #ffffff; /* cor do texto */
+  font-family: Verdana; /* fonte a ser usada */
+  padding: 20px; /* espaço interno do elemento */
+}
+
+section p {
+  color: orange;
+}
+
+/* Classe para atribuir em apenas seletores especificos, voce colocara a classe em seletores, se uma um . na classe */
+.destaque {
+  color: black;
+  background-color: red;
+  /* Border + lado = espessura / tipo de borda / cor da borda */
+  border-left: 5px solid orange;
+  /* left - esquerda, right - direita, top - superior, bottom - inferior */
+  border-radius: 10px; /* arredondamento de uma borda */
+}
+/* ID, um modificador unico, apenas usado para um seletor, se usa a # no id */
+
+#unico {
+  background-color: black;
+  color: white;
+  border: 5px solid black;
+  border-radius: 10px;
+  padding: 20px;
+  text-align: center; /* alinhador de texto */
+  height: 100px;
+  /* height: é a altura */
+  /* width:  é a largura */
+}
+.post {
+    background-color: #3a3a38;
+    padding: 20px;
+    margin: 20px 0px;
+    border-radius: 5px;
+}
+
+.post h2{
+    color: #8cc9e4;
+}
