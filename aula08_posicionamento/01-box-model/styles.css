@@ -1,0 +1,23 @@
+body {
+  font-family: Verdana;
+}
+
+.box {
+  /* Conteúdo */
+  width: 200px;
+  height: 100px;
+  background-color: lightblue;
+  /* padding: espaço interno */
+  padding: 20px;
+  /* Border: borda da caixa */
+  border: 10px solid blue;
+  /* Margin: espaço externo */
+  margin: 30px;
+  /* Centralizar o texto */
+  text-align: center;
+}
+
+p {
+  /* O conteúdo */
+  background-color: red;
+}
