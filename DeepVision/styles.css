@@ -1,0 +1,26 @@
+body {
+    background-image: linear-gradient(34deg , #0E0916,#1A0058);
+    height: 2000px;
+}
+
+.topo{
+    width: 90%;
+    height: 60px;
+    background-color: white;
+    border-radius: 25px;
+    position: fixed;
+    margin-left: 4%;
+    margin-right: 2.5%;
+    margin-top: .2%;
+}
+
+.logotopo{
+    width: 2.5%;
+    height: 60%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 1%;
+    border-right: 2px solid gray;
+    
+
+}

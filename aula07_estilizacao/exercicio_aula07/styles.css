@@ -1,0 +1,12 @@
+h1 {
+  font-family: Verdana;
+  font-size: 20px;
+}
+
+.d {
+  background-color: lightgray;
+  border-radius: 5px;
+  padding: 2px;
+  text-align: center;
+}
+
